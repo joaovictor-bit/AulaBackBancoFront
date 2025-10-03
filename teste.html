@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Cadastrar Aluno</h1>
+    <form id="frmCadastrar">
+        <div>
+        <label>Nome:
+        <input type="text" name="nome" id="nome" placeholder="Ex: João Victor" required >
+        </label>
+        </div>
+        
+        <div>
+        <label>cpf:
+            <input type="text" name="cpf" id="cpf" maxlength="11" >
+        </label>
+        </div>
+
+        <div>
+        <label>cep:
+            <input type="text" name="cep" id="cep" maxlength="8" >
+        </label>
+        </div>
+
+        <div>
+        <label>Uf:
+            <input type="number" name="Uf" id="Uf" maxlength="2" >
+        </label>
+        </div>
+
+        <div>
+        <label>Rua:
+            <input type="text" name="Rua" id="Rua" >
+        </label>
+        </div>
+
+        <div>
+        <label>Numero:
+            <input type="number" name="numero" id="numero" >
+        </label>
+        </div>
+
+        <div>
+        <label>Complemento:
+            <input type="text" name="Complemento" id="Complemento" >
+        </label>
+        </div>
+        <button type="submit"></button>
+        <button>Clean</button>
+        
+    </form>
+    <!-- <button id="btnCadastrar"> Cadastrar </button>
+    <div id="r"></div> -->
+    <script src="frontCad.js"></script>
+</body>
+</html>
